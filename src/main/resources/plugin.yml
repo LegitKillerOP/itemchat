@@ -1,0 +1,11 @@
+name: itemchat
+version: '${project.version}'
+main: me.legit.itemchat.Itemchat
+authors: [Legit]
+api-version: 1.16
+commands:
+  itemchat:
+    description: Display your item in chat
+    usage: /itemchat
+    aliases:
+      - showitem
